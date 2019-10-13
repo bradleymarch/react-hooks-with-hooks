@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Main from './components/Main'
 import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
+
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 }

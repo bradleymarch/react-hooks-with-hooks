@@ -14,6 +14,14 @@
   margin-left: 4rem;
 }
 
+.Footer {
+  margin: 180px 0 40px 0;
+}
+
+.Main {
+  padding-bottom: 100px;
+}
+
 .App-logo {
   height: 40vmin;
 }
@@ -39,14 +47,32 @@ h1, h2 {
   color: #0BC095;
 }
 
+a {
+  float: right;
+  font-size: 0.75rem;
+  margin-bottom: 5rem;
+  margin-right: 54%;
+  text-decoration: none;
+  padding: 0.25rem;
+  color: black;
+  background: white;
+}
+
+a:hover {
+  cursor: pointer;
+  cursor: hand;
+  color: white;
+  background: black;
+}
+
 button {
   padding: 2px;
   background: white;
   color: #0D2235;
   border: 2px solid #0D2235;
   font-size: 20px;
-  height: 40px;
-  width: 200px;
+  height: 36px;
+  width: 180px;
   margin-right: 10px;
   margin-left: 6px;
   margin-top: 1rem;
