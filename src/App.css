@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  background: black;
+  font-family: 'Share', cursive;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.Main, .Header {
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+h1, h2 {
+  font-family: 'Anonymous Pro', monospace;
+  margin-top: 4rem;
+  color: #0BC095;
+}
+
+button {
+  padding: 2px;
+  background: white;
+  color: #0D2235;
+  border: 2px solid #0D2235;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 6px;
+  margin-top: 1rem;
+  text-decoration: none;
+  outline: none;
+  border-radius: 100px;
+}
+
+button:hover {
+  color: white;
+  background-color: #0BC095;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 340px;
+  color: #0BC095;
+}
+
+.edit-remove-btn   {
+  font-size: 14px;
+  height: 30px;
+  width: 150px;
+}
