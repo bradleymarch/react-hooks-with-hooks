@@ -39,9 +39,9 @@ function Main() {
   return (
     <div className="Main">
       <label htmlFor="hook"><b>Enter Hook:</b> <input value={hook} placeholder="Catchy lyrics go here..."
-      id="hook" type="text" onChange={(e)=>setHook(e.target.value)} /></label>
+      id="hook" type="text" onChange={(e) => setHook(e.target.value)} /></label>
       <p>{hook!== '' ? <b>Preview: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>:null}<span>{hook}</span></p>
-      <button type="button" onClick={()=>setHook('')}>Clear</button>
+      <button type="button" onClick={() => setHook('')}>Clear</button>
       <button type="button" onClick={() => dispatchSave()}>Save</button>
       {savedHooks.map((savedHook, index) => {
         return (
